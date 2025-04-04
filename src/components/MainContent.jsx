@@ -31,7 +31,7 @@ const MainContent = () => {
       </div>
 
       {/* Navigation Tabs */}
-      <div className="flex justify-center md:justify-start items-center h-[50px] w-[344px] md:w-full border-b border-[#1D1D1D] px-4 md:px-6 text-sm md:text-base space-x-4">
+      <div className="flex justify-center md:justify-start items-center h-[50px] w-[100%] md:w-full border-b border-[#1D1D1D] px-4 md:px-6 text-sm md:text-base space-x-4">
         {["Overview", "Portfolio", "Experience", "Media"].map((tab, index) => (
           <span key={index} className={`cursor-pointer px-2 py-2 ${tab === "Overview" ? "border-b-2 border-white text-white" : "text-gray-400"}`}>
             {tab}
